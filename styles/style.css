@@ -90,5 +90,31 @@ body{
     font-size: 18px;
 }
 hr{
-    border: 1px solid #D1D1D1; 
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px; 
+}
+/* -----top blogs styles------ */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+}
+
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-author{
+    color: #9F9F9F;
+
+
+}
+.blog-author a{
+    color: #562EFF;
 }
