@@ -56,6 +56,7 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     padding: 30px;
+    margin-bottom: 20px;
 
 }
 .top-players{
@@ -117,4 +118,36 @@ hr{
 }
 .blog-author a{
     color: #562EFF;
+}
+/* ------latest course styles----- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:41px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+
+}
+.course-rating{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.fa-star.filled{
+   color: #FFC014;
+
+}
+.fa-star.empty{
+    color:#AEAEAE; 
+}
+.course-rating,span{
+    color: #A2A2A2;
+}
+.course-duration{
+   background: #FEE5DF;
+    border-radius: 14.6913px;
+    color: #ED6B4F;
+
 }
